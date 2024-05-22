@@ -1,0 +1,698 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg {
+  background-color: #1c2abd;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-items: center;
+}
+.bg .h1 {
+  position: static;
+  top: 0;
+  width: 100%;
+  background-color: #fbc334;
+  height: 12vh;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bg .h1 .butdivcarlog {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.bg .h1 .butdivcarlog .button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.bg .h1 .butdivcarlog .button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+.bg .h1 .butdivcarlog .button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+.bg .h1 .butdivcarlog .button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+.bg .h1 .butdivcarlog .button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+.bg .h1 .butdivcarlog .button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+.bg .h1 .butdivcarlog .button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+.bg .h1 .butdivcarlog .button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsla(0, 0%, 0%, 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+.bg .h1 .butdivcarlog .button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgb(5, 17, 138) 0%, rgb(34, 48, 183) 8%, rgb(34, 48, 183) 92%, rgb(5, 17, 138) 100%);
+}
+.bg .h1 .butdivcarlog .button-82-front {
+  display: block;
+  position: relative;
+  padding: 1vh 2vw;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: white;
+  background: #3140cc;
+  will-change: transform;
+  transform: translateY(-4px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+@media (min-width: 768px) {
+  .bg .h1 .butdivcarlog .button-82-front {
+    font-size: 1.25rem;
+    padding: 1vh 1vw;
+  }
+}
+.bg .h1 .butdivcarlog .logolog {
+  height: 5vh;
+}
+.bg .h1 .butdivcarlog .butlogtext {
+  font-size: 1.5vh;
+  width: 7.5vw;
+}
+.bg .h1 .logodivlog {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.bg .h1 .logodivlog .button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.bg .h1 .logodivlog .button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+.bg .h1 .logodivlog .button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+.bg .h1 .logodivlog .button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+.bg .h1 .logodivlog .button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+.bg .h1 .logodivlog .button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+.bg .h1 .logodivlog .button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+.bg .h1 .logodivlog .button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsla(0, 0%, 0%, 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+.bg .h1 .logodivlog .button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgb(5, 17, 138) 0%, rgb(34, 48, 183) 8%, rgb(34, 48, 183) 92%, rgb(5, 17, 138) 100%);
+}
+.bg .h1 .logodivlog .button-82-front {
+  display: block;
+  position: relative;
+  padding: 1vh 2vw;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: white;
+  background: #3140cc;
+  will-change: transform;
+  transform: translateY(-4px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+@media (min-width: 768px) {
+  .bg .h1 .logodivlog .button-82-front {
+    font-size: 1.25rem;
+    padding: 1vh 1vw;
+  }
+}
+.bg .h1 .logodivlog .logolog {
+  height: 5vh;
+}
+.bg .h1 .logodivlog .butlogtext {
+  font-size: 1.5vh;
+  width: 7.5vw;
+}
+.bg .h1 .butdivraillog {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.bg .h1 .butdivraillog .button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.bg .h1 .butdivraillog .button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+.bg .h1 .butdivraillog .button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+.bg .h1 .butdivraillog .button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+.bg .h1 .butdivraillog .button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+.bg .h1 .butdivraillog .button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+.bg .h1 .butdivraillog .button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+.bg .h1 .butdivraillog .button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsla(0, 0%, 0%, 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+.bg .h1 .butdivraillog .button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgb(5, 17, 138) 0%, rgb(34, 48, 183) 8%, rgb(34, 48, 183) 92%, rgb(5, 17, 138) 100%);
+}
+.bg .h1 .butdivraillog .button-82-front {
+  display: block;
+  position: relative;
+  padding: 1vh 2vw;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: white;
+  background: #3140cc;
+  will-change: transform;
+  transform: translateY(-4px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+@media (min-width: 768px) {
+  .bg .h1 .butdivraillog .button-82-front {
+    font-size: 1.25rem;
+    padding: 1vh 1vw;
+  }
+}
+.bg .h1 .butdivraillog .logolog {
+  height: 5vh;
+}
+.bg .h1 .butdivraillog .butlogtext {
+  font-size: 1.5vh;
+  width: 7.5vw;
+}
+.bg .f1 {
+  background-color: #404fde;
+  width: 100%;
+  position: static;
+  bottom: 0;
+  height: 18vh;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1vh 1vw;
+}
+.bg .f1 .f1company {
+  width: 30vw;
+  position: static;
+  left: 0;
+  padding: 1vh 3vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bg .f1 .f1company .f1logodiv {
+  margin-right: 8px;
+  margin-bottom: 1vh;
+}
+.bg .f1 .f1company .f1logodiv .f1logo {
+  box-shadow: 0px 0px 5px 8px rgb(251, 195, 52);
+  height: 7vh;
+}
+.bg .f1 .f1company .f1comptext {
+  font-size: 1vh;
+  margin-left: 1vw;
+  color: white;
+}
+.bg .f1 .f1contact {
+  position: static;
+  width: 22vw;
+  align-items: center;
+}
+.bg .f1 .f1contact .f1contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bg .f1 .f1contact .button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.bg .f1 .f1contact .button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+.bg .f1 .f1contact .button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+.bg .f1 .f1contact .button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+.bg .f1 .f1contact .button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+.bg .f1 .f1contact .button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+.bg .f1 .f1contact .button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+.bg .f1 .f1contact .button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsla(0, 0%, 0%, 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+.bg .f1 .f1contact .button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgb(5, 17, 138) 0%, rgb(34, 48, 183) 8%, rgb(34, 48, 183) 92%, rgb(5, 17, 138) 100%);
+}
+.bg .f1 .f1contact .button-82-front {
+  display: block;
+  position: relative;
+  padding: 1vh 2vw;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: #3140cc;
+  will-change: transform;
+  transform: translateY(-4px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+@media (min-width: 768px) {
+  .bg .f1 .f1contact .button-82-front {
+    font-size: 1.25rem;
+    padding: 2vh 1vw;
+  }
+}
+.bg .f1 .f1contact .f1contactdiv {
+  margin: 1vw;
+}
+.bg .f1 .f1contact .f1applydiv {
+  margin: 1vw;
+}
+.bg .f1 .f1social {
+  position: static;
+  right: 0;
+  margin-bottom: 1vh;
+}
+.bg .f1 .f1social .linkedindiv {
+  margin: 0.1vw;
+}
+.bg .f1 .f1social .linkedindiv img {
+  width: 3vh;
+}
+.bg .f1 .f1social .linkedindiv button {
+  background-color: transparent;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 0;
+  width: 3vh;
+  cursor: pointer;
+}
+.bg .f1 .f1social .twitterdiv {
+  margin: 0.1vw;
+}
+.bg .f1 .f1social .twitterdiv img {
+  width: 3vh;
+}
+.bg .f1 .f1social .twitterdiv button {
+  background-color: transparent;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 0;
+  width: 3vh;
+  cursor: pointer;
+}
+.bg .f1 .f1social .instadiv {
+  margin: 0.1vw;
+}
+.bg .f1 .f1social .instadiv img {
+  width: 3vh;
+}
+.bg .f1 .f1social .instadiv button {
+  background-color: transparent;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 0;
+  width: 3vh;
+  cursor: pointer;
+}
+.bg .f1 .f1social .ytdiv {
+  margin: 0.1vw;
+}
+.bg .f1 .f1social .ytdiv img {
+  width: 3vh;
+}
+.bg .f1 .f1social .ytdiv button {
+  background-color: transparent;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 0;
+  width: 3vh;
+  cursor: pointer;
+}
+.bg .maincontent {
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  min-height: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bg .maincontent .vidmain {
+  margin-bottom: 2vh;
+  margin-right: 0.5vw;
+  background-color: #232125;
+  padding: 0.5vw;
+  height: -moz-min-content;
+  height: min-content;
+  box-shadow: 0px 0px 6px 1px rgb(35, 33, 37);
+}
+.bg .maincontent .vidmain video {
+  width: 48vw;
+  height: -moz-min-content;
+  height: min-content;
+}
+.bg .maincontent .corpotekst {
+  max-width: 48vw;
+  text-wrap: wrap;
+  height: -moz-min-content;
+  height: min-content;
+  background-color: #2d39ba;
+  box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  padding: 0.2vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.bg .maincontent .corpotekst .przerwa {
+  height: 1vh;
+}
+.bg .maincontent .questions {
+  margin-top: 2vh;
+  font-size: larger;
+  color: #ffffff;
+}
+.bg .maincontent .questions .q {
+  margin: 1vw;
+  padding: 1vw;
+  box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.75);
+  background-color: #2d39ba;
+}
+.bg .maincontent .questions .q .qqs {
+  margin-bottom: 0.5vh;
+}
+.bg .maincontent .questions .q .dyst {
+  width: 20vw;
+}
+.bg .maincontent .questions .q button {
+  margin: 0.5vw;
+}
+.bg .maincontent .cnt1 {
+  font-size: xx-large;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: #ffffff;
+  margin: 1vw;
+  padding: 1vw;
+  box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.75);
+  background-color: #2d39ba;
+}
+.bg .maincontent .cnt {
+  height: -moz-fit-content;
+  height: fit-content;
+  color: #ffffff;
+  margin: 1vw;
+  padding: 1vw;
+  box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.75);
+  background-color: #2d39ba;
+}/*# sourceMappingURL=main.css.map */
